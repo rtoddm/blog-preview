@@ -18,7 +18,7 @@ This is a simple HTML and CSS project that I did to simply warm up and hone thos
 
 ### Links
 
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://rtoddm.github.io/blog-preview/)
 
 ## My process
 
