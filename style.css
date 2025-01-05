@@ -1,0 +1,151 @@
+/* Universal Styles Mobile Device */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Figtree";
+
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background: #f4d04e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card Mobile */
+.card {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 12px;
+
+  width: 20.43rem;
+  height: 31.31rem;
+
+  background: #ffffff;
+  border: 1px solid #111111;
+  box-shadow: 8px 8px 0px #000000;
+  border-radius: 20px;
+}
+
+img {
+  width: 17.43rem;
+  height: 12.5rem;
+
+  border-radius: 10px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+h2:hover {
+  color: #f4d04e;
+}
+
+.date {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #111111;
+}
+
+.learning {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 12px;
+  margin-bottom: 12px;
+  gap: 8px;
+
+  width: 4.56rem;
+  height: 1.62rem;
+
+  background: #f4d04e;
+  border-radius: 4px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  color: #111111;
+  font-weight: bold;
+}
+
+.text p {
+  width: 336px;
+  height: 72px;
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #6b6b6b;
+}
+
+.name {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 150%;
+  color: #111111;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+
+  height: 32px;
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+#profile-pic {
+  width: 32px;
+  height: 32px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+@media screen and (min-width: 376px) and (max-width: 1440px) {
+  .card {
+    width: 24rem;
+    height: 32.62rem;
+  }
+
+  img {
+    width: 21rem;
+    height: 12.5rem;
+  }
+
+  .text {
+    /* outline: 3px solid red; */
+    flex-basis: auto;
+    flex-grow: 1;
+  }
+
+  .text,
+  .profile {
+    margin: 0;
+    padding: 0;
+  }
+}
